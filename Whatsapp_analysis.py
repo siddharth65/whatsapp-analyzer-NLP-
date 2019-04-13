@@ -5,8 +5,6 @@ print "\n\n--------------------------------------------------------------"
 print "------------------- WHATSAPP CHAT ANALYZER -------------------"
 print "--------------------------------------------------------------"
 print "------------------------------------------  Siddharth Agarwal "
-print "-----------------------------------------Under the guidance of"
-print "-------------------------------------------  Mr. R.Srinivasan "
 dates={}
 texts={}
 names={}
@@ -80,7 +78,7 @@ m=0
 o=0
 ig=0
 for i in texts:
-	if names[i]=="Sid":
+	if names[i]==list(cwords)[0]:
 		m+=1
 	else:
 		o+=1
